@@ -5,4 +5,4 @@
 5. Code examples will be there.
 6. My last project is small site.
 7. I have a higher education (BSUIR).
-8. My english level is bettween A2.
+8. My english level is A2.
