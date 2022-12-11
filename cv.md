@@ -3,6 +3,6 @@
 3. My goal is become a **pm or developer**.
 4. I have skill: creativity and assiduity. 
 5. Code examples will be there.
-6. My last project is small site.
+6. My last project is site.
 7. I have a higher education (BSUIR).
 8. My english level is A2.
