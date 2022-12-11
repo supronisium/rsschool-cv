@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/supronisium/rsschool-cv/blob/gh-pages/cv.md
+https://supronisium.github.io/rsschool-cv/
