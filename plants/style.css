@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  }
+body {font: 20px/1.4 "Inter"; background-color: #FFFFFF; color:#636060; margin:0; padding:0;}
+
+h1 {font:700 50px "Inter"; line-height: 50px; padding:0 0 42px 0; margin:0; color:#717171;}
+h1 span {color:#499A18;}
+h2 {font:40px "Inika"; color:#499A18; padding:0; margin:0;}
+h2 span {color:#E06733;}
+
+a {text-decoration: none; color:#000000;}
+a:hover {color:#E06733; transition-duration: 1s;}
+
+header, footer {width:1440px; margin:0 auto;}
+
+.header__container {background:#EDF2EC;}
+.header__logo {font:16px "Inika"; color:#000000;}
+header .header__container_inner {display:flex; padding:62px 109px;}
+.header__logo {flex-grow: 1;}
+nav ul {display:flex; padding:0; margin:0;}
+nav li {padding-right:46px; margin:0; list-style-type: none; line-height: 50px;}
+nav li a {font:16px "Inika"; text-decoration:none; color:#010201;}
+nav li a:hover {text-decoration: none;}
+nav li a.active {color:#E06733;}
+nav li.last {padding:0;}
+
+.size-block {width:1440px; margin:0 auto;}
+.padding-block {padding-left:109px; padding-right:109px; }
+
+/* Wecome */
+
+.main__container_welcome, .main__container_service, .main__container_contacts {background-color:#EDF2EC;}
+.main__container_welcome .padding-block {padding-top:42px; padding-bottom: 42px;}
+section.welcome {background:url(leafs.png) top left no-repeat; padding-left:672px; padding-top:44px; padding-bottom:32px;}
+section.welcome p {font:20px "Inter"; line-height:35px; padding:0 0 48px 0; margin:0;}
+button.button__more {font:16px "Inter"; color:#000000; background-color:#EDF2EC; padding:10px 26px; border: 2px solid #E06733; border-radius: 10px;}
+button.button__more:hover {color:#FFFFFF; background-color:#E06733; cursor: pointer; transition-duration: 1s;}
+
+/* About */
+
+.main__container_about {background-color:#FFFFFF;}
+.main__container_about .padding-block {padding-top:93px; padding-bottom:94px;}
+section.about {background:url(houseplant.png) top right no-repeat; min-height: 479px;}
+section.about .about-container {width:605px; padding-top:82px;}
+section.about .about-container h2 {display: block; width:463px; margin-bottom:40px;}
+section.about p {font:20px "Inter"; line-height:30px; margin:0; color:#636060;}
+
+/* Service */
+
+.main__container_service .padding-block {padding-top:40px; padding-bottom:121px;}
+section.service .service-container {width:605px;}
+section.service .service-container h2 {display: block; width:306px; margin-bottom:90px;}
+.buttons__service {position: absolute; margin-left:450px; margin-top:29px;}
+button.button__service {font:20px "Inika"; color:#E06733; background-color:#EDF2EC; padding:10px 26px; border: 2px solid #E06733; border-radius: 10px; margin-right: 38px;}
+button.button__service:hover {color:#FFFFFF; background-color:#E06733; cursor: pointer; transition-duration: 1s;}
+.all-services {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-column-gap: 116px;
+    grid-row-gap: 55px;
+ }
+.all-services div.item__service {width:330px; border-radius: 20px 20px; text-align: center; padding-top:350px;}
+.all-services div.item__service:hover {filter: blur(2px);}
+.all-services div.item__service div a {font:bold 20px "Inter"; line-height: 20px; display:block; color:#E06733;}
+.all-services div.item__service div a:hover {color:#717171; transition-duration: 1s;}
+.all-services div.item__service div p {font:16px "Inter"; padding:10px 0 36px 0; margin:0; color:#717171;}
+.all-services div.item__service div {border: 1px solid #E3E1D5; border-radius: 0px 0px 20px 20px; padding:10px 10px 0 10px;}
+.all-services div.service-01 {background:url(services-01.jpg) top left no-repeat;}
+.all-services div.service-02 {background:url(services-02.jpg) top left no-repeat;}
+.all-services div.service-03 {background:url(services-03.jpg) top left no-repeat;}
+.all-services div.service-04 {background:url(services-04.jpg) top left no-repeat;}
+.all-services div.service-05 {background:url(services-05.jpg) top left no-repeat;}
+.all-services div.service-06 {background:url(services-06.jpg) top left no-repeat;}
+
+/* Price */
+
+.main__container_price {background-color:#FFFFFF;}
+.main__container_price .padding-block {padding-top:40px; padding-bottom:115px;}
+.price-container {display: flex;}
+.price-container div.price-container_left {width: 332px;}
+.price-container div.price-container_right {width: 100%; text-align: right;}
+
+.price-container h2 {font:700 40px "Inter"; color:#000000; display: block; margin-bottom:60px;}
+.price-container .price__slogan {font:700 40px "Inter"; width: 452px; color:#000000; margin-bottom:38px; float: right;}
+.price-container .price__slogan span {color:#499A18;}
+section.price {background:url(leafs-mini.png) bottom right no-repeat;}
+.price-items {border: 1px solid #E3E1D5; border-radius: 20px; padding:34px 41px;}
+.price-items div {background: #EDF2EC; border-radius: 20px; padding:16px 40px; width: 170px; margin-bottom: 32px;}
+.price-items div a {display: block; background:url(ico-arrow-down.svg) center right no-repeat;}
+.price-items div.last {margin-bottom: 0;}
+.price__buttons {clear:both;}
+button.button__price {font:700 20px "Inika"; color:#E06733; background-color:#FFFFFF; padding:10px 26px; border: 2px solid #E06733; border-radius: 10px;}
+button.button__price:hover {color:#FFFFFF; background-color:#E06733; cursor: pointer; transition-duration: 1s;}
+
+/* Contacts */
+
+.main__container_contacts {min-height: 550px;}
+.main__container_contacts .padding-block {padding-top:42px;}
+section.contacts {background:url(contact_woman.png) bottom left no-repeat; min-height: 600px; text-align: center;}
+section.contacts p {font:20px "Inter"; line-height:35px; padding:0 0 48px 0; margin:0;}
+.contact_selector {text-align: right;}
+.contact_selector div {background: #EDF2EC; border-radius: 20px; padding:16px 40px; width: 170px; margin-bottom: 32px;}
+.contact_selector div a {display: block; background:url(ico-arrow-down.svg) center right no-repeat;}
+
+
+/* Footer */
+
+.main__container_footer .padding-block {padding-top:56px; padding-bottom:56px;}
+footer {font:20px "Inter"; display:flex;}
+footer div {float:left; width:33%;}
+footer div a {}
+footer div a.last {text-align:right; display: block;}
+footer div img {margin-right:7px;}
