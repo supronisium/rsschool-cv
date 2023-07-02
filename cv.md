@@ -4,6 +4,6 @@
 2. My goal is become a **developer** or **project manager**.
 3. My skills is: Web-design, CSS, HTML, SEO. 
 4. My code example is: `<h1>Hello world!</h1>`
-5. My last project is in SEO.
+5. My last project is for big company.
 6. I have a higher education in BSUIR.
 7. My english level is bettween A1 and A2 in 2023.
