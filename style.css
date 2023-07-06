@@ -1,3 +1,5 @@
+html {scroll-behavior: smooth;}
+  
 body {font: 20px/1.4 Arial; background-color: #F5F2E5; color:#666666;}
 h1 {font-size:50px; padding:0; margin:0; color:#417972;}
 h2 {font:40px Arial; color:#162C38; border-left: 10px solid #162C38; background-color: #F5F2E5; padding:5px 5px 5px 30px;}
