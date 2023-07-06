@@ -27,7 +27,7 @@ header p {padding:28px 0;}
 nav ul {padding:0; margin:0;}
 nav li {padding:4px 10px 4px 0; margin:0; list-style-type: none; float:left;}
 nav li a {background-color:#417972; text-decoration:none; color:#FFFFFF; display: block; margin-right:5px; float:left; padding:4px 4px;}
-nav li a:hover {background-color:#F18181; color:#FFFFFF; text-decoration: none;}
+nav li a:hover {background-color:#F2D381; color:#FFFFFF; text-decoration: none;}
 
 section {padding:30px 30px 10px 30px;}
 section p, section li {font-size:20px; padding:0 0 20px 0;}
