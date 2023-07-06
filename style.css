@@ -1,5 +1,37 @@
-BODY {font: 13px/1.4 Arial;}
-h1 {font-size:26px;}
+body {font: 20px/1.4 Arial; background-color: #F3E7DD; color:#666666;}
+h1 {font-size:50px; padding:0; margin:0; color:#BB2649;}
+h2 {font:40px Arial; color:#534F6F; border-left: 10px solid #534F6F; background-color: #F3E7DD; padding:5px 5px 5px 30px;}
+h3 {font:30px Arial;}
+a {color:#BB2649;}
+a:hover {color:#534F6F;}
 
-ol {border: 1px solid #EEE; padding: 10px;}
-hr {border: 1px solid #CCC;}
+header, main, footer {width:1024px; margin:0 auto;}
+main {background-color:#FFF;}
+
+header {padding:20px 0; width:1024px; height:330px; margin:0 auto;}
+header div.img {width:300px; float:left;}
+header div.intro {float:left; padding-left:40px;}
+header p.w-decor {font-size:0.7em; padding:0; margin:0; color:#534F6F;}
+header p {padding:28px 0;}
+
+.project {height:300px;}
+.preview, .annotation {float:left;}
+.project h3 {padding:0; margin:0;}
+.annotation {padding-left:30px;}
+
+.code {color:#BB2649;}
+.code-text {color:#534F6F;}
+
+nav ul {padding:0; margin:0;}
+nav li {padding:4px 10px 4px 0; margin:0; list-style-type: none; float:left;}
+nav li a {background-color:#BB2649; text-decoration:none; color:#FFFFFF; display: block; margin-right:5px; float:left; padding:4px 4px;}
+nav li a:hover {background-color:#F18181; color:#FFFFFF; text-decoration: none;}
+
+section {padding:30px 30px 10px 30px;}
+section p, section li {font-size:20px; padding:0 0 20px 0;}
+
+footer {font-size:80%; padding:100px 0 150px 0; display:flex;}
+footer div {float:left; width:33%;}
+footer div a {text-align:center; display: block;}
+footer div a.last {text-align:right; display: block;}
+footer div img {margin-right:7px;}
