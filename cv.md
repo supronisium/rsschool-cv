@@ -1,0 +1,9 @@
+# Anton Kleuski
+===
+1. Email: supronisium@gmail.com, discord nickname: Anton (@supronisium)
+2. My goal is become a **developer** or **project manager**.
+3. My skills is: Web-design, CSS, HTML, SEO. 
+4. My code example is: `<h1>Hello world!</h1><p>My name is Anton!</p>`
+5. My last project is for big company.
+6. I have a higher education in BSUIR.
+7. My english level is bettween A1 and A2 in 2023.
