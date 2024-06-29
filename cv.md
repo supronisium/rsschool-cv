@@ -6,3 +6,4 @@
 4. My code example is: `<h1>Hello world!</h1><p>My name is Anton!</p>`
 5. My last project is for big company.
 6. I have a higher education in BSUIR.
+7. My english level is A2 in 2024.
