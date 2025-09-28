@@ -6,4 +6,4 @@
 4. My code example is: `<h1>Hello world! This is muy cv.</h1>`
 5. My last project is in SEO.
 6. I have a higher education in BSUIR.
-7. My english level is bettween A1 and A2 in 2024.
+7. My english level is B1 in 2025.
