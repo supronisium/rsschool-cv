@@ -1,2 +1,2 @@
 # rschool-cv
-https://supronisium.github.io/rsschool-cv/
+https://supronisium.github.io/rsschool-cv/cv
