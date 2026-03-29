@@ -1,1 +1,2 @@
 # rschool-cv
+https://supronisium.github.io/rsschool-cv/
